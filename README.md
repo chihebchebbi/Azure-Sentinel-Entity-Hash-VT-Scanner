@@ -1,0 +1,1 @@
+# Azure-Sentinel-Entity-Hash-VT-Scanner

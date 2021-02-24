@@ -2,7 +2,7 @@
 
 ![](Sentinel-VT.png)
 
-This is a Python code snippet to scan a file hash of an Azure Sentinel alert using VirusTotal
+This is a Python code snippet to scan a file hash from an Azure Sentinel alert using VirusTotal
 
 ## Usage 
 ```

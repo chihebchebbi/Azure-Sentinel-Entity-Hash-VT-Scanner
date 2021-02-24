@@ -59,6 +59,15 @@ for i in range(len(Parsed_Entities)):
 
 vtotal = Virustotal(API_KEY=VT_API_KEY, API_VERSION="v3")
 
+"""
+Public API constraints and restrictions
+
+The Public API is limited to 500 requests per day and a rate of 4 requests per minute.
+The Public API must not be used in commercial products or services.
+The Public API must not be used in business workflows that do not contribute new files.
+
+"""
+
 VT_resp = vtotal.request(f"files/{hash}").json()
 results = VT_resp["data"]["attributes"]["last_analysis_results"]
 magic = VT_resp["data"]["attributes"]["magic"]
